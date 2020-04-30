@@ -31,14 +31,19 @@
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1354881974721898');
+  fbq('init', '1535230976807131');
   fbq('track', 'PageView');
+  fbq('track', 'ViewContent');
+  function buttonwakaos() {
+  //Grab those link clickers!
+  window._fbq.push('track', 'ButtonWAkaos');
+  window._fbq.push('track', 'Lead');
+  }
 </script>
 <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1354881974721898&ev=PageView&noscript=1"
+  src="https://www.facebook.com/tr?id=1535230976807131&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-
   <section class="mbr-section content4 cid-rXADhY0X9L" id="content4-0">
 
     
@@ -247,7 +252,7 @@
 
     <figure class="mbr-figure container">
             <div class="image-block" style="width: 25%;">
-                <a href="https://api.whatsapp.com/send?phone=6282129332517&text=Saya Mau tanya tentang iklan di 25 website dan 25 postingan, bagaimana caranya..?"><img src="assets/images/click-wa.gif" width="1400" alt="Mobirise" title=""></a>
+                <a onclick="buttonwakaos(); href="https://api.whatsapp.com/send?phone=6282129332517&text=Saya Mau tanya tentang iklan di 25 website dan 25 postingan, bagaimana caranya..?"><img src="assets/images/click-wa.gif" width="1400" alt="Mobirise" title=""></a>
                 
             </div>
     </figure>
